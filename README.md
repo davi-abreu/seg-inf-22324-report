@@ -7,4 +7,4 @@
 ![ex5 1](images/ex_5_1.jpeg){width="50%"}
 
 
-<img src="images/ex_5_1.jpeg" width="50%" style="margin-left: auto;  margin-right: auto;">
+<img src="images/ex_5_1.jpeg" width="50%" style="text-align:center;">
