@@ -1,0 +1,45 @@
+Exercicio 6:
+
+# openssl commands:
+
+openssl x509 -inform der -in secure-server.cer -out secure-server.pem
+openssl pkcs12 -in secure-server.pfx -out private-key.pem -nodes
+
+openssl x509 -inform der -in certificates-keys/end-entities/Alice_2.cer -out Alice_2.pem
+openssl x509 -inform der -in certificates-keys/intermediates/CA1-int.cer -out CA1-int.pem
+
+cat Alice_2.pem CA1-int.pem > certificate-chain.pem
+
+# npm commands:
+
+npm install https express fs
+
+## jks generation ##
+keytool -importcert -file CA1.cer -keystore CA.jks -alias CA_jks
+
+## import certificate ##
+
+Here's how you can import a certificate into the Windows Certificate Store:
+
+Access Windows Certificate Manager:
+
+Press Win + R on your keyboard to open the Run dialog.
+Type certmgr.msc and press Enter. This opens the Certificate Manager.
+Select the Certificate Store:
+
+Within Certificate Manager, navigate to the store where you want to import the certificate. For example, you might choose "Trusted Root Certification Authorities" or "Personal."
+Import the Certificate:
+
+Right-click on the store and select "All Tasks" > "Import."
+This opens a wizard that will guide you through the process of importing the certificate.
+Browse to the location of the certificate file (.cer or .pfx) you want to import and follow the prompts.
+Specify the Certificate Store:
+
+Choose the store where you want to place the certificate. For example, you might want to place it in the Trusted Root Certification Authorities store if it's a root certificate.
+Complete the Import:
+
+Follow the wizard, providing any necessary information or passwords related to the certificate.
+Once imported, you should receive a confirmation of the successful import.
+Once imported into the Windows Certificate Store, applications, including browsers like Microsoft Edge, can access these certificates. The browser will be able to use the certificates stored in the Windows Certificate Store for secure connections or other authentication purposes.
+
+Keep in mind that administrative privileges might be required to perform some operations within the Certificate Manager. Additionally, the exact steps may vary slightly depending on your Windows version.
