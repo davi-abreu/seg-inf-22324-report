@@ -4,4 +4,4 @@
 @import "images/ex_5_1.jpeg" {width="30%" style="display: block; margin: 0 auto" title="my title" alt="my alt"}
 
 
-![alt|30](images/ex_5_1.jpeg)
+![ex5 1](images/ex_5_1.jpeg){width:30%;}
