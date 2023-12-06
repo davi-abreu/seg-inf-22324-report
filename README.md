@@ -5,3 +5,6 @@
 
 
 ![ex5 1](images/ex_5_1.jpeg){width="50%"}
+
+
+<img src="images/ex_5_1.jpeg" width="50%" allign="center">
