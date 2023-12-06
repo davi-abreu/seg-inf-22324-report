@@ -2,7 +2,7 @@
 
 <p align="center"><img src="images/isel-logo.png" width="30%" ></p>
 
-<h3 style="text-align: center;">Grupo 10 </h3>
+<h3 align="center">Grupo 10 </h3>
 
 <div align="center" width="40%">
 
