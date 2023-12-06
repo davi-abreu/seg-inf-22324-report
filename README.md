@@ -1,14 +1,19 @@
 # my-borga-ipw-2122-1-31n-g07
 
+<div style="margin-left: auto;
+            margin-right: auto;
+            width: 40%">
 
-@import "images/ex_5_1.jpeg" {width="30%" style="display: block; margin: 0 auto" title="my title" alt="my alt"}
+| Nome  | n.º Aluno |
+| :-------- | :------: |
+| Tiago Duarte  | 42525  |
+| David Abreu  | 43316  |
+| Mário Friande  | 43785  |
 
-
+</div>
 ![ex5 1](images/ex_5_1.jpeg)
 
-<p align="center" style="border: 1px solid #333;"><img src="images/ex_4.png" width="100%"> </p>
-<p align="center" border="1"><img src="images/ex_4.png" width="100%"> </p>
+<kbd><img src="images/ex_4.png" width="100%"></kbd>
+
 <kbd><img src="images/ex_4.png" width="100%"></kbd>
 <p align="center"><kbd><img src="images/ex_5_1.jpeg" width="50%" style="border: 2px solid  gray;"></kbd></p>
-
-<center><img src="images/ex_5_1.jpeg" width="50%" ></center>
