@@ -7,6 +7,6 @@
 ![ex5 1](images/ex_5_1.jpeg)
 
 
-<p align="center"><img src="images/ex_5_1.jpeg" width="50%" border="1"></p>
+<p align="center"><img src="images/ex_5_1.jpeg" width="50%" border=1></p>
 
 <center><img src="images/ex_5_1.jpeg" width="50%" ></center>
