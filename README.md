@@ -8,3 +8,5 @@
 
 
 <p align="center"><img src="images/ex_5_1.jpeg" width="50%" ></p>
+
+<center><img src="images/ex_5_1.jpeg" width="50%" ></center>
