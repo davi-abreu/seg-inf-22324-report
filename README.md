@@ -1,8 +1,6 @@
 # my-borga-ipw-2122-1-31n-g07
 
-<div style="margin-left: auto;
-            margin-right: auto;
-            width: 40%">
+<div align="center"  width="40%">
 
 | Nome  | n.º Aluno |
 | :-------- | :------: |
@@ -11,7 +9,6 @@
 | Mário Friande  | 43785  |
 
 </div>
-![ex5 1](images/ex_5_1.jpeg)
 
 <kbd><img src="images/ex_4.png" width="100%"></kbd>
 
