@@ -1,4 +1,4 @@
-<h2 style="text-align: center;">Relatório Técnico Segurança Informática</h2>
+<h2 align="center">Relatório Técnico Segurança Informática</h2>
 
 <p align="center"><img src="images/isel-logo.png" width="30%" ></p>
 
@@ -36,8 +36,9 @@ No caso do ataque de reflexão, a solução do TLS para este problema é o uso d
 
 Os CAPTCHAs são desafios que visam distinguir humanos de bots ou programas automatizados. Geralmente, esses desafios envolvem a identificação de letras distorcidas, seleção de imagens específicas, resolução de quebra-cabeças ou completar tarefas simples que são fáceis para humanos, mas desafiadoras para programas automatizados. Os CAPTCHAS saofáceis para humanos e dificeis para computadores.
 
-<kbd><img src="images/ex_3.png" width="100%"></kbd>
+<div style="page-break-after: always"></div>
 
+<kbd><img src="images/ex_3.png" width="100%"></kbd>
 
 Para garantir a integridade do JWT armazenado em um cookie e detectar se seu conteúdo foi adulterado no navegador, pode-se utilizar uma técnica de assinatura digital. O JWT possui três partes: o cabeçalho (header), o payload (corpo) e a assinatura. A assinatura é gerada usando uma chave secreta conhecida apenas pelo servidor. Essa assinatura é aplicada sobre o cabeçalho codificado em Base64, o payload codificado em Base64 e a chave secreta. Quando o JWT é enviado de volta ao servidor no cookie, o servidor pode recalcular a assinatura usando a chave secreta conhecida e comparar essa assinatura com a presente no JWT recebido. Se as assinaturas não coincidirem, isso indica que o conteúdo do JWT foi alterado.
 
@@ -53,6 +54,8 @@ Para garantir a integridade do JWT armazenado em um cookie e detectar se seu con
 
 desenvolver resposta 5
 
+
+<div style="page-break-after: always"></div>
 
 <kbd><img src="images/ex_6.png" width="100%"></kbd>
 
